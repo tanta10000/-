@@ -1,0 +1,8 @@
+$t-bg:#d43d3d;
+$t-red8:#f85959;
+$t-white: white;
+
+@function elebluck($opacity:1){
+  @return  rgba(7,17,27,$opacity);
+}
+

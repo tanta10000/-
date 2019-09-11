@@ -1,29 +1,18 @@
-# headlines
+项目描述：
+该项目主要实现为用户提供实时新闻资讯，类似于 快看新闻APP。版块分为新闻，视频，个人，实现新闻实时更新，新闻版块内容分类，视频动态更新，视频分类，喜好关注，新闻搜索等，能够为用户提供智能内容推荐，并且用户可以自定义喜好新闻板块类，用户能够通过视频板块观看自己喜欢的视频分类视频，并可以对其进行关注。
+责任描述：
+主要职责：
+1、使用vue 、vuex 搭建项目框架。
+2、实现所有板块设定，界面UI布局。各个页面布局排版。
+3、使用开源新闻api接口，实现数据接口请求。
+4、通过使用vue-router实现单页面路由跳转.
+5、使用better-scroll滚动插件实现页面内容滚动。
+6、新闻板块用户自定义喜好分类，
+7、使用本地存储localStorage实现历史搜索保存，
+8、用户搜索关键字新闻实时提示、
+9、使用本地存储localStorage用户关注。
+10、视频实时分类观看。
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+技术知识点：
+框架知识：vue内部服务动态代理、vue单向数据流，vue反向传值、vue –router路由跳转、vue组件、组件按需加载、路由守卫、组件生命周期、vue动画钩子。。
+其他知识:采用flex页面布局模式。Scss预处理器、style样式动态载入插件。Es6语法HTML5+css3
